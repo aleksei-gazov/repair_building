@@ -1,0 +1,26 @@
+@mixin text($fontFamily, $lineHeight, $fontSize, $fontWeight, $color) {
+  font-family:$fontFamily;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color:$color;
+}
+
+@mixin container() {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex($direction, $justifyContent, $alignItem, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItem;
+  flex-wrap: $wrap;
+}
+
+@mixin bgSetting () {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
