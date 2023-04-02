@@ -1,0 +1,16 @@
+@import '../../style/sass/mixin';
+@import '../../style/sass/variables';
+
+
+.container {
+  @include flex(row, space-around, center, nowrap);
+  @include container();
+  border: red solid 2px;
+
+  .mainForm {
+    border: red solid 2px;
+  }
+  .videoReviews {
+    border: red solid 2px;
+  }
+}
