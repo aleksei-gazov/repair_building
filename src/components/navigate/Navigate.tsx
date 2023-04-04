@@ -5,24 +5,28 @@ const Navigate = () => {
     return (
         <div className={s.navigate}>
             <div>
-                <span>Каталог домов </span>
-                <select></select>
+
+                <select className={s.select}>
+                    <option value="value" selected>Каталог домов</option>
+                </select>
             </div>
             <div>
-                <span>Услуги </span>
-                <select></select>
+                <select className={s.select}>
+                    <option value="value" selected>Услуги</option>
+                </select>
             </div>
             <div>
-                <span>О нас </span>
-                <select></select>
+                <select className={s.select}>
+                    <option value="value" selected>О нас</option>
+                </select>
             </div>
             <div>
-                <span>Контакты </span>
-                <select></select>
+                <a className={s.nav} href="#">Контакты</a>
             </div>
             <div>
-                <span>Блог </span>
-                <select></select>
+                <select className={s.select}>
+                    <option value="value" selected>Блог</option>
+                </select>
             </div>
 
 

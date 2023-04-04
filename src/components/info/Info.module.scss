@@ -1,0 +1,21 @@
+@import '../../style/sass/mixin';
+@import '../../style/sass/variables';
+
+.info {
+  border: yellow solid 5px;
+  .container {
+    @include flex(column, space-around, center, nowrap);
+    @include container();
+
+    .text {
+      border: yellow solid 2px;
+    }
+    .imgBlock {
+      display: flex;
+      flex-direction: row;
+      border: yellow solid 2px;
+    }
+  }
+
+}
+
